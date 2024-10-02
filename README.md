@@ -1,4 +1,5 @@
-# Thnk you for checking out my latex notes template. please star it or something -- idk how gituhb works, but i want more of whatever the social currency here is :]
+# My LaTex Notes Template
+Thnk you for checking out my latex notes template. please star it or something -- idk how gituhb works, but i want more of whatever the social currency here is :]
 
 ## What different files and directories should be used for
 
