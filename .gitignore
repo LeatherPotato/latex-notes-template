@@ -1,0 +1,10 @@
+*.aux
+*.gz
+*.toc
+*.out
+*.fls
+*.log
+*.fdb_latexmk
+
+# you can comment out the *.pdf in this gitignore if needed, but id prefer to keep this stuff just tex files on the gitgub
+*.pdf

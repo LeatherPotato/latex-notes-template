@@ -1,0 +1,33 @@
+\usepackage{amssymb} % can be amsfonts
+\usepackage{graphicx} %LaTeX package to import graphics
+\graphicspath{{images/}} %configuring the graphicx package
+\usepackage{amsthm}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+
+\raggedbottom
+\def\footnoterule{\vfill % added this
+   \kern-3pt\hrule width 2truein \kern 2.6pt}
+
+
+% CUSTOM COMMANDS, VARIABLES, OR OTHER ENVIRONMENT STUFF
+
+% explanation: each of these has [theorem] after the label name to make sure the numbers add up.
+% if this was not done, wed have definition 1.1, theorem 1.1, lemma 1.1, etc. instead of having definition 1.1, theorem 1.2, lemma 1.3, etc.
+% the latter is much easier to read for obvious reasons.
+% see this for more: https://www.math.uh.edu/~torok/math_6298/latex/numbering.html
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{remark}[theorem]{Remark} 

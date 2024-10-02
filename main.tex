@@ -1,0 +1,24 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{preamble}
+% KEEP ALL PREAMBLE IN preamble.sty
+
+\title{My Latex Template!}
+\author{Sabina Ahmad}
+\date{} % the empty date is to ensure the date isnt added to the title page
+\begin{document}
+\maketitle
+\tableofcontents
+
+\newpage
+
+
+\section{Introduction} % that star keeps the introduction unnumbered
+\input{chapters/introduction}
+% ALWAYS USE \input INSTEAD OF \include, AS THE LATTER AUTOMATICALLY PUTS THE STUFF IN THE DOCUMENT ON A NEW PAGE INSTEAD OF BELOW THE SECTION TITLE
+
+\newpage
+
+\section{First Chaper Title}
+\input{chapters/example_section}
+
+\end{document}
